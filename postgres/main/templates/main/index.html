@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        helo
+    </title>
+    <body>
+
+    {% for obj in data %}
+        <p>{{ obj.name }}</p>
+        <p>{{ obj.Er_no }}</p>
+        <p>{{ obj.Address }}</p>
+        <p>{{ obj.get_choice_display }}</p>
+
+        <img src="{{ obj.image.url }}" alt="sfasf" height="100px" width="100px">
+
+    {% endfor %}
+
+        
+    </body>
+</html>
