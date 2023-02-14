@@ -1,0 +1,10 @@
+{% extends "app1/base.html" %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'app1/main.css' %}">
+{% endblock css %}
+{% block content %}
+<div class="red-bg">
+  <h1> helo this is home page</h1>
+</div>
+{% endblock content %}
