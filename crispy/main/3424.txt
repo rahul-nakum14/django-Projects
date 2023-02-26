@@ -1,5 +1,0 @@
-                <!-- <li><a class="dropdown-item" href="{%url 'edit-profile'  user_id=user.id%}">Edit Profile</a></li> -->
-       <!-- {{ form.username|as_crispy_field }}
-        {{ form.email|as_crispy_field }}
-        {{ form.password1|as_crispy_field }}
-        {{ form.password2|as_crispy_field }}
